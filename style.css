@@ -230,6 +230,25 @@ nav ul li a {
 /* ending popular section */
 
 /* start chose section  */
+.choose {
+  max-width: 1140px;
+  max-height: 700px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.img-perant>img {
+width: 300px;
+height: 150px;
+}
+.img-one{
+  
+}
 
 
 /* ending chose section  */
@@ -563,11 +582,27 @@ margin-left: 120px;
     width: 100%;
     height: 100%;
   }
+  .choose{
+padding: 20px;
+margin-top: 20px;
+  }
+  .img-container{
+    flex-direction: column;
+  }
+  .img-perant{
+    width: 335px;
+    height: 176px;
+  }
+  .img-perant img{
+    width: 100%;
+    height: 100%;
+  }
   footer{
     width: 375px;
 height: 309px;
 padding: 20px;
   }
+
 
 
 }
