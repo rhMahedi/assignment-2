@@ -221,35 +221,136 @@ border: none;
 }
 
 
+/* ending popular section */
+
 /* start chose section  */
-.choose {
-  max-width: 1140px;
-  max-height: 700px;
+
+
+/* ending chose section  */
+
+/* start travel chose  */
+.main-chose-travel {
+  margin-top: 50px;
+  width: 1140px;
+  min-height: 500px;
+  margin: 0px auto;
+}
+
+
+.chose-travel {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+
+.mile-ase {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+.there-main-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+
+.there-perant {
+  max-width: 573px;
+  min-height: 284px;
+  padding: 10px 15px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+
+.there-perante {
+  max-width: 573px;
+  min-height: 284px;
+  padding: 10px 15px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+
+.hotel {
+  padding: 15px 0px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
+.hotel-mil {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+ /* start contact section  */
+ .contact{
+  max-width: 1170px;
+  min-height: 450px;
   margin: 0px auto;
   margin-top: 50px;
-}
+  display: flex;
+  justify-content: space-between;
+ }
+ .contact-writng{
+  width: 474px;
+  height: 422px;
+ }
+ .contact-h{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+ }
+ .contact-p{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-top: 20px;
+ }
+ .contact-input{
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+font-weight: 400;
+border: none;
+margin: 20px 0px;
+ }
+ .contact-btn{
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+margin-top: 25px;
+font-weight: 800;
+border: none;
+ }
 
-.img-container {
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-}
+ .contact-img{
+  width: 672px;
+height: 422px;
+position: relative;
 
-.img-perant>img {
-  position: relative;
-}
-
-.change {
-  position: absolute;
-  color: #FFF;
-
-  text-align: center;
-
-  font-size: 28px;
-
-  font-weight: 800;
-
-}
-
-
-
-
+ }
+ 
